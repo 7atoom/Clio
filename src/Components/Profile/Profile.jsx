@@ -23,7 +23,7 @@ const Profile = () => {
                 <li onClick={ () => showContent != 3 ? setShowContent(3) : "" } style={ { cursor: "pointer" } } > Orders </li>
             </ul>
 
-            { showContent == 1 ? <Details /> : showContent == 2 ? <Orders /> : <SavPayment /> }
+            { showContent == 1 ? <Details /> : showContent == 2 ? <SavPayment /> : <Orders /> }
         </div>
     
     </>
