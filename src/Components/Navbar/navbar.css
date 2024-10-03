@@ -7,7 +7,7 @@ nav img {
 }
 @media (max-width: 991px) {
     nav img {
-        left: 80px;
+        left: 40px;
     }
 }
 nav .seprator {
