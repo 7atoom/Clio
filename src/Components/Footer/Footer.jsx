@@ -5,7 +5,7 @@ import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-
 const Footer = () => {
     return <>
 
-        <footer className="bg-main-2 text-white pt-5 fixed-bottom">
+        <footer className="bg-main-2 text-white pt-5">
             <div className="container pt-4">
                 <div className="row text-main">
 

@@ -1,0 +1,51 @@
+.contact .contact-form {
+    border: 3px solid #074D4DAF;
+    border-radius: 5px;
+    padding: 40px 56px;
+    background-color: #EBE7E1;
+    box-shadow: -2px 2px 8px #074D4D;
+}
+.contact .contact-form input,
+.contact .contact-form textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.contact .contact-form textarea {
+    height: 200px;
+    resize: none;
+}
+.contact .contact-form button {
+    display: block;
+    margin-left: auto;
+    border: none;
+    padding: 8px 60px;
+    background-color: #074D4D;
+    color: #EBE7E1;
+}
+
+.schedule {
+    border: 3px solid #074D4DAF;
+    border-radius: 5px;
+    padding: 50px;
+    background-color: #EBE7E1;
+    position: relative;
+    margin-top: 22px;
+}
+.schedule::before {
+    content: "Schedule";
+    background-color: #074D4D;
+    color: #EBE7E1;
+    font-weight: bold;
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    transform: translate(-50%, 5px);
+}
